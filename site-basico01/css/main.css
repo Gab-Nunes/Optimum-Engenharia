@@ -1,0 +1,264 @@
+/*USADO NO INICIO DE TODOS OS BLOCOS PARA DESIGNAR O O FORMATO DA PÁGINA*/
+.col_100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+
+}
+
+.menu_principal {
+    width: 100%;
+    background-color: #006c99;
+    height: 60px;
+
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+/*CABEÇAÇHO*/
+.logo {
+    width: 70%;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.redes_sociais ul li {
+    margin-left: 25px;
+    margin-right: 9px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+
+}
+
+.redes_sociais {
+    width: 25%;
+    float: right;
+
+
+}
+
+.line {
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+}
+
+.head_fixo {
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    position: fixed;
+    text-align: center;
+    z-index: 998;
+}
+
+.header_2 {
+    background-color: #FFFFFF;
+    width: 980px;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+/*MENU PRINCIPAL*/
+.menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #006c99;
+    height: 46px;
+
+}
+
+.menu ul li a:hover {
+    color: #006c99;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+}
+
+/*
+.busca {
+    width: 21%;
+    float: right;
+
+}
+
+.busca input {
+    background-image: url('../img/pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 170px;
+    width: 190px;
+    height: 30px;
+    margin-top: 6px;
+    border: thin solid #bdbdbd;
+
+}
+
+::placeholder {
+    padding: 10px;
+    color: #8b8b8b;
+}
+*/
+
+/*BOTÕES DO SLIDER*/
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/flecha_esquerda.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 9;
+    /*para ficar em cima dos que estão antes dele*/
+    top: 52%;
+    left: 18%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/flecha_direita.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 9;
+    /*para ficar em cima dos que estão antes dele*/
+    top: 52%;
+    right: 18%;
+}
+
+.slider_principal {
+    width: 100%;
+    padding-top: 80px;
+}
+
+/*altura da barra interativa*/
+.slick-track {
+    height: 458px !important;
+    ;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #FFFFFF;
+    width: 13px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 19px;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 93%;
+}
+
+.slick-dots li {
+    display: inline-block;
+
+}
+
+li.slick-active button {
+    background-color: #ffffff;
+}
+
+/*PARTE ABAIXO DO SLIDER*/
+.texto_maior {
+    text-align: center;
+    font-family: achieve, Arial, Helvetica, sans-serif;
+}
+
+
+
+.texto_maior p {
+    color: #8b8b8b;
+    font-size: 14px;
+}
+
+
+
+.texto_maior h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #555454;
+    margin-top: 5em;
+}
+
+
+
+.texto_menor {
+    margin-left: 380px;
+    margin-right: 371px;
+    text-align: left;
+    text-indent: 30px;
+    padding-bottom: 100px;
+}
+
+.texto_menor2 {
+    text-align: center;
+    text-indent: 30px;
+    padding-bottom: 300px;
+}
+
+
+
+footer {
+    background-color: #8b8b8b;
+    padding: 40px;
+    font-style: italic;
+    text-align: left;
+}
+
+.whatsapp {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.instagram {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.email {
+    text-align: center;
+
+}
